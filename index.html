@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kushagra Portfolio</title>
+
+<style>
+
+/* CSS Styling */
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#555;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:40px;
+}
+
+.project{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+    padding:10px 20px;
+    background:#333;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#555;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+section{
+    padding:20px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+<h1>Kushagra Portfolio</h1>
+<p>Aspiring Software Developer</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<img src="https://via.placeholder.com/150" alt="Profile picture of Kushagra">
+
+<p>
+Hello! My name is Kushagra. I am learning C++, MySQL and Web Development.
+I enjoy solving problems and building projects to improve my coding skills.
+</p>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>A simple responsive website built using HTML, CSS and JavaScript.</p>
+</div>
+
+<div class="project">
+<h3>DSA Practice</h3>
+<p>I solve algorithm and data structure problems using C++.</p>
+</div>
+
+<button onclick="showMessage()">Click to interact</button>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: kushagra@example.com</p>
+<p>GitHub: github.com/yourusername</p>
+
+</section>
+
+
+<footer>
+<p>© 2026 Kushagra Portfolio</p>
+</footer>
+
+
+
+<script>
+
+/* JavaScript Interactivity */
+
+function showMessage(){
+    alert("Thanks for visiting my portfolio website!");
+}
+
+</script>
+
+
+</body>
+</html>
