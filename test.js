@@ -1,1 +1,1 @@
-console.log("vulnerable");
+console.log("safe");
