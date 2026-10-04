@@ -1,3 +1,3 @@
 function getUser(id) {
-    return db.query("SELECT * FROM users WHERE id = " + id + " LIMIT 1");
+    return db.query("SELECT * FROM users WHERE id = ? LIMIT 1", [id]);
 }
